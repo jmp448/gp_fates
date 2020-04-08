@@ -35,4 +35,5 @@ m.model_fates(X=['bgplvm_2d_1'])
 
 m.make_fates_viz(['bgplvm_2d_0', 'bgplvm_2d_1'])
 
-m.fates_viz.plot(); GPfates.plt.show()
+m.fates_viz.plot()
+GPfates.plt.show()

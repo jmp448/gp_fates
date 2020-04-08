@@ -2,10 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import GPy
+import sys
+sys.path.insert(1, '../GPclust/')
 from GPclust import OMGP
 
-from .gp_utils import bifurcation_statistics
-from .gp_utils import identify_bifurcation_point
+from gp_utils import bifurcation_statistics
+from gp_utils import identify_bifurcation_point
 
 class GPfates(object):
     ''' An object for GPfates analysis
